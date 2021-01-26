@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Sidebar from '../../components/Sidebar'
+import Navbar from '../../components/Navbar'
 import Contact from '../Contact'
 
 export default function Initial() {
@@ -12,6 +13,7 @@ export default function Initial() {
     return (
         <>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
+        <Navbar toggle={toggle}/>
            <Contact/>           
         </>
         
