@@ -1,15 +1,12 @@
 import React, {useState} from 'react'
+import Contact from '../Contact'
 
 export default function Initial() {
-const [isOpen, setIsOpen] = useState(false)
 
-const toggle = () =>{
-    setIsOpen(!isOpen)
-}
 
     return (
         <>
-           <h1>INITIAL</h1>             
+           <Contact/>           
         </>
         
     )
