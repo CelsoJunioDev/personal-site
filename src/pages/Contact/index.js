@@ -14,9 +14,9 @@ export default function Contact() {
             <h1>Contact</h1>
 
         <S.Cards>
-            <Card img={Github} title="GitHub" href="https://www.google.com"/>
-            <Card img={Linkedin} title="LinkedIn"/>
-            <Card img={Instagram} title="Instagram"/>
+            <Card img={Github} title="GitHub" href="https://github.com/celsojuniodev"/>
+            <Card img={Linkedin} title="LinkedIn" href="https://linkedin.com/in/celsojuniodev"/>
+            <Card img={Instagram} title="Instagram" href="https://instagram.com/celsojunioss"/>
             <Card img={Whatsapp} title="Whatsapp" href="https://api.whatsapp.com/send?phone=5561993751598"/>
         </S.Cards>
 

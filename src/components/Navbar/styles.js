@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkScroll } from 'react-scroll';
 
 export const projectColors = {
-  navColor: '#2d669d',
+  navColor: '#000',
 }
 
 export const Nav = styled.nav`
@@ -23,6 +23,7 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   height: 80px;
   z-index: 1;
@@ -38,17 +39,19 @@ export const NavLogo = styled(LinkScroll)`
   justify-self: flex-start;
   margin-left: 4px;
   cursor: pointer;
+
+  &:hover {
+    color: #a4d2ff;
+  }
 `
 
 export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    display: flex;
+  align-items: center;
+  justify-self: flex-end;
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
