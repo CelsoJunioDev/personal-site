@@ -44,7 +44,7 @@ function Clientes() {
 
   return (
     <Container id="abilities">
-      <h1 id="clients">Habilidades</h1>
+      <h1 id="clients">Habilidadess</h1>
       <Slider
         {...settings}
         style={{ width: "75%" }}
@@ -53,6 +53,10 @@ function Clientes() {
         adaptiveHeight={true}
       >
         <div>
+          <span>teste</span>
+        </div>
+
+        {/* <div>
           <img src="https://coolhuntersagency.com/wp-content/uploads/2020/12/Coolhunters_Site_logotipos_0000s_0000s_0006_cavana-2.png" />
         </div>
         <div>
@@ -81,7 +85,7 @@ function Clientes() {
         </div>
         <div>
           <img src="https://coolhuntersagency.com/wp-content/uploads/2020/12/Coolhunters_Site_logotipos_0000s_0000s_0004_0012Ativo-1.png" />
-        </div>
+        </div> */}
       </Slider>
     </Container>
   );
